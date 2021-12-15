@@ -1,0 +1,91 @@
+.productos-container{
+    width: 72%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.productos-filtros{
+    background-color: rgb(78, 78, 78);
+    padding: 10px;
+    margin: 0 3px;
+}
+
+.productos-filtros ul{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px;
+}
+
+.productos-filtros ul h6{ 
+    width: auto;
+    color: aliceblue;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+
+.productos-filtros ul input{ 
+    width: auto;
+    margin: 0 5px;
+}
+
+.productos-filtros ul button{
+    width: auto;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.productos .r-card{
+    padding: 5px;
+}
+
+
+
+/*ERROR RESULTADOS*/
+.err-results{
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.err-results h2{
+    text-align: center;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 1500px){
+    .productos-container{
+        width: 90%;
+    }
+} 
+
+
+@media only screen and (max-width: 700px){
+    .productos-filtros ul input{ 
+        width: 80%;
+        padding: 0px;
+    }
+
+    .productos-filtros ul button{
+        width: 20%;
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    .productos-filtros ul h6{ 
+        display: none;
+    }
+}   

@@ -1,0 +1,32 @@
+.allRecientesContainer{
+    margin-top: 100px;
+    min-height: 400px;
+}
+
+.allRecientesContainer h2{
+    font-weight: 300;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(211, 210, 210) ;
+}
+
+.allRecientes{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.allRecientes .r-card{
+    padding: 20px 5px; 
+}
+
+.allRecientes .r-card span b{
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width:900px){
+    .allRecientes{
+        width: 98%;
+    }
+}

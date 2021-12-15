@@ -1,0 +1,119 @@
+.producto-container{
+    width: 100%;
+    min-height: 555px;
+}
+
+.c-producto{
+    margin: 60px 0;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    height: auto;
+}
+
+.producto{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.producto .p-image{
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    max-height: 600px;
+}
+
+.producto .p-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.c-producto .p-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px;
+    padding-left: 10px;
+}
+
+.c-producto .p-description .p-texto{
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+.c-producto .p-description .p-texto h3{
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.c-producto .p-description .p-texto strong{
+    font-weight: 600;
+    color: tomato;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.c-producto .p-detalles{
+    height: 100%;
+    background-color: rgb(235, 235, 235);
+    padding: 15px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c-producto .p-detalles .detalles{
+    height: 100%;
+    min-height: 200px;
+    max-height: 350px;
+    overflow: auto;
+}
+
+.c-producto .p-detalles strong{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.c-producto .p-detalles h6{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+.c-producto .p-detalles p{
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.c-producto .p-contacto .contac{
+    padding: 10px 0;
+}
+.c-producto .p-contacto .contac strong{
+    color: rgb(196, 196, 196);
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 1500px){
+    .producto{
+        width: 90%;
+    }
+
+.c-producto .p-contacto .contac strong{
+    font-size: 14px;   
+}
+}   
+
+
+@media only screen and (max-width: 350px){
+    .producto{
+        width: 100%;
+    }
+}

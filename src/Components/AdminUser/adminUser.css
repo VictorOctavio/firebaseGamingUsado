@@ -1,0 +1,110 @@
+.adminUser-container{
+    width: 100%;
+    min-height: 455px;
+    margin-top: 100px;
+    background-color: rgb(39, 39, 39);
+    padding: 20px 0;
+}
+
+.adminUser{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.adminUser h3{
+    color: #ccc;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(51, 51, 51);
+}
+
+.adminUser .form-add{
+    margin: 15px 0;
+}
+
+.adminUser .form-add label{
+    margin-top: 10px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.adminUser .form-add form .categoria-admin{
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.adminUser .form-add form button{
+    width: 100%;
+}
+
+
+
+
+/*MIS PRODUCTOS*/
+.misProductosContainer{
+    background-color: rgb(27, 27, 27);
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+
+.mis-productos .admin-card .card .img-div{
+    width: 100%;
+}
+
+.mis-productos .admin-card .card .img-div img{
+    width: 100%;
+    height: 300px;
+   object-fit: cover;
+}
+
+.misProductosContainer h3{
+    text-align: center;
+    border-bottom: 1px solid rgb(34, 34, 34);
+    font-weight: 700;
+    color: rgb(54, 54, 54);
+}
+
+.mis-productos .admin-card .admin-controllers{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.mis-productos .admin-card .admin-controllers h6{
+    font-weight: 700;
+}
+
+.mis-productos .admin-card .admin-controllers .editar{
+ background-color: rgb(230, 182, 50);
+ color: rgb(20, 20, 20);
+}
+
+.mis-productos .admin-card .admin-controllers .delete{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+}
+
+
+.misProductosContainer .mis-productos .admin-card{
+    margin: 12px 0;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 800px){
+
+    .adminUser{
+        width: 100%;
+    }
+
+    .misProductosContainer{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,52 @@
+.recomendados-container{
+    margin-top: 150px;
+    background-color: rgb(61, 61, 61);
+}
+
+.recomendados{
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.recomendados .r-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(77, 77, 77);
+}
+
+.recomendados .r-title h2{
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #ccc;
+}
+
+
+.recomendado-list{
+    margin-top: 60px;
+}
+
+.recomendado-list .r-card{
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 1500px){
+    .recomendados{
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .recomendados .r-title{ 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recomendados .r-title h2{
+        font-size: 22px;
+    }
+}
